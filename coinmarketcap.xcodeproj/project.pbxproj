@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0088FA61F924311004CB7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FA51F924311004CB7AC /* AppDelegate.swift */; };
-		D0088FA81F924311004CB7AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FA71F924311004CB7AC /* ViewController.swift */; };
+		4E997C003166687B57C76D44 /* Pods_coinmarketcap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7A1477A9982E6F270F99C3 /* Pods_coinmarketcap.framework */; };
 		D0088FAB1F924311004CB7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0088FA91F924311004CB7AC /* Main.storyboard */; };
 		D0088FAD1F924311004CB7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0088FAC1F924311004CB7AC /* Assets.xcassets */; };
 		D0088FB01F924311004CB7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0088FAE1F924311004CB7AC /* LaunchScreen.storyboard */; };
+		D0088FD31F92635E004CB7AC /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FD21F92635E004CB7AC /* CryptoModel.swift */; };
+		D0088FDA1F927031004CB7AC /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FCA1F926015004CB7AC /* APIEndpoints.swift */; };
+		D01770201F929039008A43C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FEE1F92897D004CB7AC /* AppDelegate.swift */; };
+		D022BF651F92939E00FE2A7B /* CryptoListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FFC1F9289FA004CB7AC /* CryptoListWireFrame.swift */; };
+		D022BF661F92940300FE2A7B /* CryptoListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00890011F9289FA004CB7AC /* CryptoListProtocols.swift */; };
+		D022BF671F92941300FE2A7B /* CryptoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FFF1F9289FA004CB7AC /* CryptoListViewController.swift */; };
+		D022BF681F92945F00FE2A7B /* CryptoListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FF61F9289FA004CB7AC /* CryptoListLocalDataManager.swift */; };
+		D022BF691F92945F00FE2A7B /* CryptoListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FF81F9289FA004CB7AC /* CryptoListRemoteDataManager.swift */; };
+		D022BF6A1F92945F00FE2A7B /* CryptoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0088FFA1F9289FA004CB7AC /* CryptoListPresenter.swift */; };
+		D022BF6B1F92945F00FE2A7B /* CryptoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00890031F9289FA004CB7AC /* CryptoListInteractor.swift */; };
+		D022BF6D1F92976600FE2A7B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022BF6C1F92976600FE2A7B /* CryptoTableViewCell.swift */; };
+		D022BF7A1F92CAA200FE2A7B /* CryptoDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022BF791F92CAA200FE2A7B /* CryptoDetailProtocols.swift */; };
+		D022BF7C1F92CB2100FE2A7B /* CryptoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022BF7B1F92CB2100FE2A7B /* CryptoDetailPresenter.swift */; };
+		D022BF7E1F92CBA800FE2A7B /* CryptoDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022BF7D1F92CBA800FE2A7B /* CryptoDetailWireFrame.swift */; };
+		D022BF801F92CC3C00FE2A7B /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022BF7F1F92CC3C00FE2A7B /* CryptoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3E12636E21F42AE16D0726D /* Pods-coinmarketcap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coinmarketcap.release.xcconfig"; path = "Pods/Target Support Files/Pods-coinmarketcap/Pods-coinmarketcap.release.xcconfig"; sourceTree = "<group>"; };
+		BF7A1477A9982E6F270F99C3 /* Pods_coinmarketcap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coinmarketcap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0088FA21F924311004CB7AC /* coinmarketcap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coinmarketcap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0088FA51F924311004CB7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0088FA71F924311004CB7AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0088FAA1F924311004CB7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0088FAC1F924311004CB7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0088FAF1F924311004CB7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0088FB11F924311004CB7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0088FCA1F926015004CB7AC /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		D0088FD21F92635E004CB7AC /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		D0088FEE1F92897D004CB7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0088FF61F9289FA004CB7AC /* CryptoListLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListLocalDataManager.swift; sourceTree = "<group>"; };
+		D0088FF81F9289FA004CB7AC /* CryptoListRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListRemoteDataManager.swift; sourceTree = "<group>"; };
+		D0088FFA1F9289FA004CB7AC /* CryptoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListPresenter.swift; sourceTree = "<group>"; };
+		D0088FFC1F9289FA004CB7AC /* CryptoListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListWireFrame.swift; sourceTree = "<group>"; };
+		D0088FFF1F9289FA004CB7AC /* CryptoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewController.swift; sourceTree = "<group>"; };
+		D00890011F9289FA004CB7AC /* CryptoListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListProtocols.swift; sourceTree = "<group>"; };
+		D00890031F9289FA004CB7AC /* CryptoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListInteractor.swift; sourceTree = "<group>"; };
+		D022BF6C1F92976600FE2A7B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		D022BF791F92CAA200FE2A7B /* CryptoDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailProtocols.swift; sourceTree = "<group>"; };
+		D022BF7B1F92CB2100FE2A7B /* CryptoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailPresenter.swift; sourceTree = "<group>"; };
+		D022BF7D1F92CBA800FE2A7B /* CryptoDetailWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailWireFrame.swift; sourceTree = "<group>"; };
+		D022BF7F1F92CC3C00FE2A7B /* CryptoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
+		EEDEBE50E8363FAD716635CF /* Pods-coinmarketcap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coinmarketcap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coinmarketcap/Pods-coinmarketcap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E997C003166687B57C76D44 /* Pods_coinmarketcap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C504A823B7349EBBA9EE2291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEDEBE50E8363FAD716635CF /* Pods-coinmarketcap.debug.xcconfig */,
+				B3E12636E21F42AE16D0726D /* Pods-coinmarketcap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB510887B4C64580938DA0C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7A1477A9982E6F270F99C3 /* Pods_coinmarketcap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0088F991F924311004CB7AC = {
 			isa = PBXGroup;
 			children = (
 				D0088FA41F924311004CB7AC /* coinmarketcap */,
 				D0088FA31F924311004CB7AC /* Products */,
+				C504A823B7349EBBA9EE2291 /* Pods */,
+				CB510887B4C64580938DA0C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,219 @@
 		D0088FA41F924311004CB7AC /* coinmarketcap */ = {
 			isa = PBXGroup;
 			children = (
-				D0088FA51F924311004CB7AC /* AppDelegate.swift */,
-				D0088FA71F924311004CB7AC /* ViewController.swift */,
+				D0088FC81F926015004CB7AC /* Classes */,
 				D0088FA91F924311004CB7AC /* Main.storyboard */,
 				D0088FAC1F924311004CB7AC /* Assets.xcassets */,
 				D0088FAE1F924311004CB7AC /* LaunchScreen.storyboard */,
 				D0088FB11F924311004CB7AC /* Info.plist */,
 			);
 			path = coinmarketcap;
+			sourceTree = "<group>";
+		};
+		D0088FC81F926015004CB7AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FED1F92897D004CB7AC /* AppDelegate */,
+				D0088FD11F92602F004CB7AC /* Entities */,
+				D0088FC91F926015004CB7AC /* Common */,
+				D0088FCB1F926015004CB7AC /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0088FC91F926015004CB7AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FCA1F926015004CB7AC /* APIEndpoints.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D0088FCB1F926015004CB7AC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF6E1F92C9F800FE2A7B /* CryptoDetailModule */,
+				D0088FF31F9289FA004CB7AC /* CryptoListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D0088FD11F92602F004CB7AC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FD21F92635E004CB7AC /* CryptoModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D0088FED1F92897D004CB7AC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FEE1F92897D004CB7AC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D0088FF31F9289FA004CB7AC /* CryptoListModule */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FF41F9289FA004CB7AC /* DataManager */,
+				D0088FF91F9289FA004CB7AC /* Presenter */,
+				D0088FFB1F9289FA004CB7AC /* Wireframe */,
+				D0088FFD1F9289FA004CB7AC /* View */,
+				D00890001F9289FA004CB7AC /* Protocols */,
+				D00890021F9289FA004CB7AC /* Interactor */,
+			);
+			path = CryptoListModule;
+			sourceTree = "<group>";
+		};
+		D0088FF41F9289FA004CB7AC /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FF51F9289FA004CB7AC /* Local */,
+				D0088FF71F9289FA004CB7AC /* Remote */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		D0088FF51F9289FA004CB7AC /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FF61F9289FA004CB7AC /* CryptoListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D0088FF71F9289FA004CB7AC /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FF81F9289FA004CB7AC /* CryptoListRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D0088FF91F9289FA004CB7AC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FFA1F9289FA004CB7AC /* CryptoListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D0088FFB1F9289FA004CB7AC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FFC1F9289FA004CB7AC /* CryptoListWireFrame.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		D0088FFD1F9289FA004CB7AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D00890041F928A37004CB7AC /* Cells */,
+				D0088FFE1F9289FA004CB7AC /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0088FFE1F9289FA004CB7AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0088FFF1F9289FA004CB7AC /* CryptoListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D00890001F9289FA004CB7AC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D00890011F9289FA004CB7AC /* CryptoListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D00890021F9289FA004CB7AC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D00890031F9289FA004CB7AC /* CryptoListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D00890041F928A37004CB7AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF6C1F92976600FE2A7B /* CryptoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D022BF6E1F92C9F800FE2A7B /* CryptoDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF721F92C9F800FE2A7B /* Presenter */,
+				D022BF731F92C9F800FE2A7B /* Wireframe */,
+				D022BF741F92C9F800FE2A7B /* View */,
+				D022BF771F92C9F800FE2A7B /* Protocols */,
+				D022BF781F92C9F800FE2A7B /* Interactor */,
+			);
+			path = CryptoDetailModule;
+			sourceTree = "<group>";
+		};
+		D022BF721F92C9F800FE2A7B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF7B1F92CB2100FE2A7B /* CryptoDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D022BF731F92C9F800FE2A7B /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF7D1F92CBA800FE2A7B /* CryptoDetailWireFrame.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		D022BF741F92C9F800FE2A7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF751F92C9F800FE2A7B /* Cells */,
+				D022BF761F92C9F800FE2A7B /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D022BF751F92C9F800FE2A7B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D022BF761F92C9F800FE2A7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF7F1F92CC3C00FE2A7B /* CryptoDetailView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D022BF771F92C9F800FE2A7B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D022BF791F92CAA200FE2A7B /* CryptoDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D022BF781F92C9F800FE2A7B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0088FB41F924311004CB7AC /* Build configuration list for PBXNativeTarget "coinmarketcap" */;
 			buildPhases = (
+				92185FB60DECD211EA59B1A6 /* [CP] Check Pods Manifest.lock */,
 				D0088F9E1F924311004CB7AC /* Sources */,
 				D0088F9F1F924311004CB7AC /* Frameworks */,
 				D0088FA01F924311004CB7AC /* Resources */,
+				5EAF700803C94E714F94A3BD /* [CP] Embed Pods Frameworks */,
+				9A0D0F6D1934E5AC7DCC3DCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +389,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EAF700803C94E714F94A3BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coinmarketcap/Pods-coinmarketcap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coinmarketcap/Pods-coinmarketcap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92185FB60DECD211EA59B1A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coinmarketcap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0D0F6D1934E5AC7DCC3DCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coinmarketcap/Pods-coinmarketcap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0088F9E1F924311004CB7AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0088FA81F924311004CB7AC /* ViewController.swift in Sources */,
-				D0088FA61F924311004CB7AC /* AppDelegate.swift in Sources */,
+				D022BF6D1F92976600FE2A7B /* CryptoTableViewCell.swift in Sources */,
+				D022BF681F92945F00FE2A7B /* CryptoListLocalDataManager.swift in Sources */,
+				D022BF7C1F92CB2100FE2A7B /* CryptoDetailPresenter.swift in Sources */,
+				D022BF691F92945F00FE2A7B /* CryptoListRemoteDataManager.swift in Sources */,
+				D022BF6A1F92945F00FE2A7B /* CryptoListPresenter.swift in Sources */,
+				D022BF6B1F92945F00FE2A7B /* CryptoListInteractor.swift in Sources */,
+				D022BF671F92941300FE2A7B /* CryptoListViewController.swift in Sources */,
+				D022BF661F92940300FE2A7B /* CryptoListProtocols.swift in Sources */,
+				D022BF651F92939E00FE2A7B /* CryptoListWireFrame.swift in Sources */,
+				D01770201F929039008A43C9 /* AppDelegate.swift in Sources */,
+				D022BF7E1F92CBA800FE2A7B /* CryptoDetailWireFrame.swift in Sources */,
+				D0088FDA1F927031004CB7AC /* APIEndpoints.swift in Sources */,
+				D022BF801F92CC3C00FE2A7B /* CryptoDetailView.swift in Sources */,
+				D0088FD31F92635E004CB7AC /* CryptoModel.swift in Sources */,
+				D022BF7A1F92CAA200FE2A7B /* CryptoDetailProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +605,7 @@
 		};
 		D0088FB51F924311004CB7AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDEBE50E8363FAD716635CF /* Pods-coinmarketcap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +621,7 @@
 		};
 		D0088FB61F924311004CB7AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E12636E21F42AE16D0726D /* Pods-coinmarketcap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
