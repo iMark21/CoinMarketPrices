@@ -13,3 +13,6 @@ VIPER Architecture: Cryptocurrency Market Prices
 - Alamofire for connect to the API.
 - VIPER as Architecture.
 - CococaPods as dependency manager.
+
+# Screenshot
+[![Simulator_Screen_Shot_-_i_Phone_8_-_2017-10-15_at_02.56.43.png](https://s1.postimg.org/7ympm4hgnz/Simulator_Screen_Shot_-_i_Phone_8_-_2017-10-15_at_02.56.43.png)](https://postimg.org/image/72q86o7s7v/)
