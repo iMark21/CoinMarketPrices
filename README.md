@@ -11,6 +11,7 @@ VIPER Architecture: Cryptocurrency Market Prices
 
 # Solution
 - Alamofire for connect to the API.
+- AlamofireObjectMapper for modeling objects.
 - VIPER as Architecture.
 - CococaPods as dependency manager.
 
