@@ -1,5 +1,5 @@
 # CoinMarketPrices - Bitcoin
-VIPER Architecture: Cryptocurrency Market Prices
+VIPER Architecture: 💰 Cryptocurrencies Market Rates
 
 # Language
 - SWIFT
